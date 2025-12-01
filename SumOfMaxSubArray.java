@@ -1,5 +1,5 @@
 import java.util.*;
-public class SumOfMaxSubArray{
+public class MaxSumofSubArray{
     public static void sumOfSubArray(int numbers[]){
          
         int max=Integer.MIN_VALUE;
@@ -28,4 +28,5 @@ public class SumOfMaxSubArray{
         int numbers[]={2,4,6,8,10};
         sumOfSubArray(numbers);
     }
+
 }
